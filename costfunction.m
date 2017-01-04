@@ -6,7 +6,6 @@ t1=[a(35),a(36),a(37)];
 t2=[a(38),a(39),a(40)];
 T1=[r1,t1';0,0,0,1];
 T2=[r2,t2';0,0,0,1];
-
 %cost function with 21 error parameter
 %Tr is the measured transform matrix
 R=t2r(Tr); %ger R, R is from Tr 
