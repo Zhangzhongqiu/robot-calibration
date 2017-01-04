@@ -1,2 +1,2 @@
 # robot-calibration
-thr algotithm for robot calibration
+the algotithm for robot calibration
