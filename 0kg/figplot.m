@@ -38,7 +38,7 @@ set(gca,'XTickLabel',sprintf('%3.3f\n',ed2));
 xlabel('Rotation error [deg]');
 ylabel('Number of measurements');
 box off;
-mean2=sum(theta)/227;
+mean2=mean(theta);
 max2=max(theta);
 s2=std(theta);
 
