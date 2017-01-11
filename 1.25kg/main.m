@@ -12,5 +12,5 @@ save('outputs.mat','x');  %%save the identified errors
 [Tc1_ac,Tc2_ac]=gettc(x);% get the coordinate transform matrix after calibration
 [theta,d]=error_est(x,tau,q_opt,Tr2,Tc1,Tc2,Tc1_ac,Tc2_ac);
 
-% %figure plot
-% [f1,f2]=figplot(d,theta);
+%figure plot
+[f1,f2]=figplot(d,theta);
